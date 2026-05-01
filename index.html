@@ -11,33 +11,33 @@
         * { box-sizing: border-box; font-family: system-ui, -apple-system, sans-serif; }
         body { margin: 0; padding: 8px; background: #f5f5f5; font-size: 14px; }
         h1 { font-size: 18px; margin: 0 0 12px 0; color: #1a1a1a; text-align: center; }
-       .card { background: white; border-radius: 12px; padding: 14px; margin-bottom: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+      .card { background: white; border-radius: 12px; padding: 14px; margin-bottom: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
         button { width: 100%; padding: 12px; border-radius: 8px; border: none; font-weight: 600; font-size: 14px; margin: 6px 0; cursor: pointer; }
         button:active { opacity: 0.8; }
-       .btn-green { background: #2e7d32; color: white; }
-       .btn-blue { background: #1976d2; color: white; }
-       .btn-red { background: #d32f2f; color: white; }
-       .btn-gray { background: #757575; color: white; }
-       .btn-orange { background: #f57c00; color: white; }
+      .btn-green { background: #2e7d32; color: white; }
+      .btn-blue { background: #1976d2; color: white; }
+      .btn-red { background: #d32f2f; color: white; }
+      .btn-gray { background: #757575; color: white; }
+      .btn-orange { background: #f57c00; color: white; }
         input[type="file"], input[type="text"], input[type="number"] { width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd; font-size: 14px; margin: 6px 0; }
         label { display: block; font-weight: 600; margin-top: 8px; color: #333; font-size: 13px; }
-       .btn-row { display: flex; gap: 8px; }
-       .btn-row button { flex: 1; }
-       .total-box { background: #e3f2fd; padding: 14px; border-radius: 10px; margin-bottom: 12px; text-align: center; font-weight: 700; font-size: 16px; color: #0d47a1; }
-       .client-card { background: #fafafa; border: 1px solid #e0e0e0; border-radius: 10px; padding: 12px; margin-bottom: 10px; }
-       .client-name { font-weight: 700; font-size: 16px; color: #1a1a1a; margin-bottom: 6px; }
-       .client-info { font-size: 13px; color: #555; margin: 3px 0; }
-       .client-debt { font-weight: 600; color: #d32f2f; font-size: 14px; }
-       .tip { font-size: 12px; color: #27ae60; text-align: center; margin-top: 6px; font-weight: 600; }
-       .hidden { display: none!important; }
-       .add-form { background: #f0f7ff; padding: 12px; border-radius: 10px; margin-bottom: 12px; }
-       .license-screen { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #f5f5f5; z-index: 9999; padding: 20px; display: flex; align-items: center; justify-content: center; }
-       .license-box { background: white; border-radius: 16px; padding: 24px; max-width: 400px; width: 100%; box-shadow: 0 4px 12px rgba(0,0,0,0.15); text-align: center; }
-       .license-box h2 { margin: 0 0 16px 0; color: #1a1a1a; }
-       .license-box p { color: #666; line-height: 1.6; margin: 12px 0; }
-       .days-left { background: #fff3e0; color: #e65100; padding: 10px; border-radius: 8px; font-weight: 700; margin: 12px 0; }
-       .expired { background: #ffebee; color: #c62828; }
-       .activated { background:#e8f5e9; color:#2e7d32; }
+      .btn-row { display: flex; gap: 8px; }
+      .btn-row button { flex: 1; }
+      .total-box { background: #e3f2fd; padding: 14px; border-radius: 10px; margin-bottom: 12px; text-align: center; font-weight: 700; font-size: 16px; color: #0d47a1; }
+      .client-card { background: #fafafa; border: 1px solid #e0e0e0; border-radius: 10px; padding: 12px; margin-bottom: 10px; }
+      .client-name { font-weight: 700; font-size: 16px; color: #1a1a1a; margin-bottom: 6px; }
+      .client-info { font-size: 13px; color: #555; margin: 3px 0; }
+      .client-debt { font-weight: 600; color: #d32f2f; font-size: 14px; }
+      .tip { font-size: 12px; color: #27ae60; text-align: center; margin-top: 6px; font-weight: 600; }
+      .hidden { display: none!important; }
+      .add-form { background: #f0f7ff; padding: 12px; border-radius: 10px; margin-bottom: 12px; }
+      .license-screen { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #f5f5f5; z-index: 9999; padding: 20px; display: flex; align-items: center; justify-content: center; }
+      .license-box { background: white; border-radius: 16px; padding: 24px; max-width: 400px; width: 100%; box-shadow: 0 4px 12px rgba(0,0,0,0.15); text-align: center; }
+      .license-box h2 { margin: 0 0 16px 0; color: #1a1a1a; }
+      .license-box p { color: #666; line-height: 1.6; margin: 12px 0; }
+      .days-left { background: #fff3e0; color: #e65100; padding: 10px; border-radius: 8px; font-weight: 700; margin: 12px 0; }
+      .expired { background: #ffebee; color: #c62828; }
+      .activated { background:#e8f5e9; color:#2e7d32; }
     </style>
 </head>
 <body>
@@ -89,7 +89,18 @@
 
 <script>
 let clients = [];
-const LICENSE_URL = './codes.json';
+
+// الأكواد الـ 40 حقك هنا مباشرة - ما يحتاج ملف خارجي
+const VALID_CODES = [
+    "A9K2-LM5D-Q8WX-Z3NF", "T7F4-P1R6-HY2V-4JBD", "M3C8-W5E7-K9QN-B1TX", "G6L2-Y4ZU-H0OP-S9VR", "J1RF-D8GK-N3AM-Q7WC",
+    "E9VT-U2SB-X6YL-H4KP", "Z5NW-M1CQ-T8DJ-A6RF", "K4PX-S9HB-L2VM-Y7EG", "R2DT-N8WC-V5QL-X1MJ", "B6YS-A3FK-P9DN-U4HZ",
+    "H7QM-E1TV-J8LX-C2RW", "N5UZ-K4GP-W3FS-D9BQ", "Q8XA-V6YM-L1NT-R7JC", "F3KD-S2WP-U9BH-G5EZ", "C4JY-H8RM-T6KV-X2LA",
+    "D9BL-Q1FN-E7MW-Z5PU", "W6GH-Y3JC-K8RX-B4VT", "P2EM-U5TA-S4DO-N9IG", "X7VR-F9BL-J3KQ-M6UC", "Y1WQ-Z8CN-G5HL-T4SE",
+    "L9KP-R2EX-D7FV-B3WH", "S4NM-V6JY-U8GT-K1CQ", "O3HJ-A7LZ-E2RM-P5XF", "I6TK-C9QB-W4DN-H8YU", "U5PL-M1EX-Q3KS-F7ZV",
+    "V8RW-B4JH-N6TY-D2AL", "A2GF-X9CM-T5UP-L7JQ", "E1HD-Z3WK-R8BV-S6NY", "T4JM-P7QF-K9DX-C5GU", "M6SN-H2WL-Y4EZ-N8RT",
+    "G3LC-Q5AT-F9KU-V1DJ", "K7BX-U8RM-W2PN-J4HS", "Z9FQ-D1EV-L6YC-B3TM", "N4VW-S9GJ-X7AK-E6QP", "R5UH-Y2FX-H4LM-T8CW",
+    "D8JE-C6NT-V3SQ-G9ZK", "B1XR-K5YU-P4MH-L2WF", "H6QA-F7PD-J8ZT-U3EN", "Q2SY-M9LK-A5WR-X4VB", "W7CL-N3GT-E6BJ-R9PD"
+];
 
 function getDeviceId() {
     let deviceId = localStorage.getItem('deviceId');
@@ -157,34 +168,33 @@ function resetApp() {
     }
 }
 
-async function activateApp() {
+function activateApp() {
     const code = document.getElementById('licenseCode').value.trim().toUpperCase();
     if (!code) {
         alert('ادخل الكود');
         return;
     }
 
-    try {
-        const res = await fetch(LICENSE_URL + '?t=' + Date.now());
-        if (!res.ok) throw new Error('Network');
-        const data = await res.json();
+    const usedCodes = JSON.parse(localStorage.getItem('usedCodes') || '[]');
 
-        if (data.valid_codes.includes(code) &&!data.used_codes.includes(code)) {
-            localStorage.setItem('activated', 'true');
-            localStorage.setItem('usedCode', code);
-
-            document.getElementById('licenseScreen').classList.add('hidden');
-            document.getElementById('mainApp').classList.remove('hidden');
-            initApp();
-
-            alert('تم التفعيل بنجاح ✓');
-        } else if (data.used_codes.includes(code)) {
-            alert('هذا الكود مستخدم من قبل على جهاز آخر');
-        } else {
-            alert('كود خاطئ');
+    if (VALID_CODES.includes(code)) {
+        if (usedCodes.includes(code)) {
+            alert('هذا الكود مستخدم من قبل');
+            return;
         }
-    } catch (e) {
-        alert('خطأ في الاتصال. تأكد من ملف codes.json');
+
+        localStorage.setItem('activated', 'true');
+        localStorage.setItem('usedCode', code);
+        usedCodes.push(code);
+        localStorage.setItem('usedCodes', JSON.stringify(usedCodes));
+
+        document.getElementById('licenseScreen').classList.add('hidden');
+        document.getElementById('mainApp').classList.remove('hidden');
+        initApp();
+
+        alert('تم التفعيل بنجاح ✓');
+    } else {
+        alert('كود خاطئ');
     }
 }
 
@@ -327,4 +337,31 @@ function sendMessage(idx, type) {
         const phone = c.phone.replace(/[^0-9]/g, '');
         window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
     } else {
-        window.open(`sms:${c.phone}?body=${encodeURIComponent
+        window.open(`sms:${c.phone}?body=${encodeURIComponent(msg)}`, '_blank');
+    }
+}
+
+function sendToAll(type) {
+    if (clients.length === 0) {
+        alert('ما فيه عملاء');
+        return;
+    }
+    if (!confirm(`ترسل رسالة لـ ${clients.length} عميل؟`)) return;
+
+    clients.forEach((c, i) => {
+        setTimeout(() => sendMessage(i, type), i * 1500);
+    });
+}
+
+window.onload = function() {
+    if (checkLicense()) {
+        document.getElementById('licenseScreen').classList.add('hidden');
+        document.getElementById('mainApp').classList.remove('hidden');
+        initApp();
+    } else {
+        showLicense(true);
+    }
+};
+</script>
+</body>
+</html>
