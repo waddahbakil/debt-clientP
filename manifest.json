@@ -1,25 +1,23 @@
 {
   "name": "إدارة ديون العملاء",
   "short_name": "ديون العملاء",
-  "description": "تطبيق لإدارة ديون العملاء مع نظام تفعيل وإرسال رسائل واتساب و SMS",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f5f5f5",
   "theme_color": "#2e7d32",
   "orientation": "portrait",
   "scope": "./",
+  "description": "تطبيق لإدارة ديون العملاء مع نظام تفعيل وإرسال رسائل واتساب و SMS",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
-      "src": "icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
   ]
 }
