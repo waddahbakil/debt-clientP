@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
@@ -11,33 +12,33 @@
         * { box-sizing: border-box; font-family: system-ui, -apple-system, sans-serif; }
         body { margin: 0; padding: 8px; background: #f5f5f5; font-size: 14px; }
         h1 { font-size: 18px; margin: 0 0 12px 0; color: #1a1a1a; text-align: center; }
-      .card { background: white; border-radius: 12px; padding: 14px; margin-bottom: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+       .card { background: white; border-radius: 12px; padding: 14px; margin-bottom: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
         button { width: 100%; padding: 12px; border-radius: 8px; border: none; font-weight: 600; font-size: 14px; margin: 6px 0; cursor: pointer; }
         button:active { opacity: 0.8; }
-      .btn-green { background: #2e7d32; color: white; }
-      .btn-blue { background: #1976d2; color: white; }
-      .btn-red { background: #d32f2f; color: white; }
-      .btn-gray { background: #757575; color: white; }
-      .btn-orange { background: #f57c00; color: white; }
+       .btn-green { background: #2e7d32; color: white; }
+       .btn-blue { background: #1976d2; color: white; }
+       .btn-red { background: #d32f2f; color: white; }
+       .btn-gray { background: #757575; color: white; }
+       .btn-orange { background: #f57c00; color: white; }
         input[type="file"], input[type="text"], input[type="number"] { width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ddd; font-size: 14px; margin: 6px 0; }
         label { display: block; font-weight: 600; margin-top: 8px; color: #333; font-size: 13px; }
-      .btn-row { display: flex; gap: 8px; }
-      .btn-row button { flex: 1; }
-      .total-box { background: #e3f2fd; padding: 14px; border-radius: 10px; margin-bottom: 12px; text-align: center; font-weight: 700; font-size: 16px; color: #0d47a1; }
-      .client-card { background: #fafafa; border: 1px solid #e0e0e0; border-radius: 10px; padding: 12px; margin-bottom: 10px; }
-      .client-name { font-weight: 700; font-size: 16px; color: #1a1a1a; margin-bottom: 6px; }
-      .client-info { font-size: 13px; color: #555; margin: 3px 0; }
-      .client-debt { font-weight: 600; color: #d32f2f; font-size: 14px; }
-      .tip { font-size: 12px; color: #27ae60; text-align: center; margin-top: 6px; font-weight: 600; }
-      .hidden { display: none!important; }
-      .add-form { background: #f0f7ff; padding: 12px; border-radius: 10px; margin-bottom: 12px; }
-      .license-screen { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #f5f5f5; z-index: 9999; padding: 20px; display: flex; align-items: center; justify-content: center; }
-      .license-box { background: white; border-radius: 16px; padding: 24px; max-width: 400px; width: 100%; box-shadow: 0 4px 12px rgba(0,0,0,0.15); text-align: center; }
-      .license-box h2 { margin: 0 0 16px 0; color: #1a1a1a; }
-      .license-box p { color: #666; line-height: 1.6; margin: 12px 0; }
-      .days-left { background: #fff3e0; color: #e65100; padding: 10px; border-radius: 8px; font-weight: 700; margin: 12px 0; }
-      .expired { background: #ffebee; color: #c62828; }
-      .activated { background:#e8f5e9; color:#2e7d32; }
+       .btn-row { display: flex; gap: 8px; }
+       .btn-row button { flex: 1; }
+       .total-box { background: #e3f2fd; padding: 14px; border-radius: 10px; margin-bottom: 12px; text-align: center; font-weight: 700; font-size: 16px; color: #0d47a1; }
+       .client-card { background: #fafafa; border: 1px solid #e0e0e0; border-radius: 10px; padding: 12px; margin-bottom: 10px; }
+       .client-name { font-weight: 700; font-size: 16px; color: #1a1a1a; margin-bottom: 6px; }
+       .client-info { font-size: 13px; color: #555; margin: 3px 0; }
+       .client-debt { font-weight: 600; color: #d32f2f; font-size: 14px; }
+       .tip { font-size: 12px; color: #27ae60; text-align: center; margin-top: 6px; font-weight: 600; }
+       .hidden { display: none!important; }
+       .add-form { background: #f0f7ff; padding: 12px; border-radius: 10px; margin-bottom: 12px; }
+       .license-screen { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: #f5f5f5; z-index: 9999; padding: 20px; display: flex; align-items: center; justify-content: center; }
+       .license-box { background: white; border-radius: 16px; padding: 24px; max-width: 400px; width: 100%; box-shadow: 0 4px 12px rgba(0,0,0,0.15); text-align: center; }
+       .license-box h2 { margin: 0 0 16px 0; color: #1a1a1a; }
+       .license-box p { color: #666; line-height: 1.6; margin: 12px 0; }
+       .days-left { background: #fff3e0; color: #e65100; padding: 10px; border-radius: 8px; font-weight: 700; margin: 12px 0; }
+       .expired { background: #ffebee; color: #c62828; }
+       .activated { background:#e8f5e9; color:#2e7d32; }
     </style>
 </head>
 <body>
@@ -89,41 +90,18 @@
 
 <script>
 let clients = [];
-
-// الأكواد الـ 40 حقك هنا مباشرة - ما يحتاج ملف خارجي
-const VALID_CODES = [
-    "A9K2-LM5D-Q8WX-Z3NF", "T7F4-P1R6-HY2V-4JBD", "M3C8-W5E7-K9QN-B1TX", "G6L2-Y4ZU-H0OP-S9VR", "J1RF-D8GK-N3AM-Q7WC",
-    "E9VT-U2SB-X6YL-H4KP", "Z5NW-M1CQ-T8DJ-A6RF", "K4PX-S9HB-L2VM-Y7EG", "R2DT-N8WC-V5QL-X1MJ", "B6YS-A3FK-P9DN-U4HZ",
-    "H7QM-E1TV-J8LX-C2RW", "N5UZ-K4GP-W3FS-D9BQ", "Q8XA-V6YM-L1NT-R7JC", "F3KD-S2WP-U9BH-G5EZ", "C4JY-H8RM-T6KV-X2LA",
-    "D9BL-Q1FN-E7MW-Z5PU", "W6GH-Y3JC-K8RX-B4VT", "P2EM-U5TA-S4DO-N9IG", "X7VR-F9BL-J3KQ-M6UC", "Y1WQ-Z8CN-G5HL-T4SE",
-    "L9KP-R2EX-D7FV-B3WH", "S4NM-V6JY-U8GT-K1CQ", "O3HJ-A7LZ-E2RM-P5XF", "I6TK-C9QB-W4DN-H8YU", "U5PL-M1EX-Q3KS-F7ZV",
-    "V8RW-B4JH-N6TY-D2AL", "A2GF-X9CM-T5UP-L7JQ", "E1HD-Z3WK-R8BV-S6NY", "T4JM-P7QF-K9DX-C5GU", "M6SN-H2WL-Y4EZ-N8RT",
-    "G3LC-Q5AT-F9KU-V1DJ", "K7BX-U8RM-W2PN-J4HS", "Z9FQ-D1EV-L6YC-B3TM", "N4VW-S9GJ-X7AK-E6QP", "R5UH-Y2FX-H4LM-T8CW",
-    "D8JE-C6NT-V3SQ-G9ZK", "B1XR-K5YU-P4MH-L2WF", "H6QA-F7PD-J8ZT-U3EN", "Q2SY-M9LK-A5WR-X4VB", "W7CL-N3GT-E6BJ-R9PD"
-];
-
-function getDeviceId() {
-    let deviceId = localStorage.getItem('deviceId');
-    if (!deviceId) {
-        deviceId = 'DEV-' + Math.random().toString(36).substr(2, 9) + Date.now();
-        localStorage.setItem('deviceId', deviceId);
-    }
-    return deviceId;
-}
+const VALID_CODES = ["A9K2-LM5D-Q8WX-Z3NF","T7F4-P1R6-HY2V-4JBD","M3C8-W5E7-K9QN-B1TX","G6L2-Y4ZU-H0OP-S9VR","J1RF-D8GK-N3AM-Q7WC","E9VT-U2SB-X6YL-H4KP","Z5NW-M1CQ-T8DJ-A6RF","K4PX-S9HB-L2VM-Y7EG","R2DT-N8WC-V5QL-X1MJ","B6YS-A3FK-P9DN-U4HZ","H7QM-E1TV-J8LX-C2RW","N5UZ-K4GP-W3FS-D9BQ","Q8XA-V6YM-L1NT-R7JC","F3KD-S2WP-U9BH-G5EZ","C4JY-H8RM-T6KV-X2LA","D9BL-Q1FN-E7MW-Z5PU","W6GH-Y3JC-K8RX-B4VT","P2EM-U5TA-S4DO-N9IG","X7VR-F9BL-J3KQ-M6UC","Y1WQ-Z8CN-G5HL-T4SE","L9KP-R2EX-D7FV-B3WH","S4NM-V6JY-U8GT-K1CQ","O3HJ-A7LZ-E2RM-P5XF","I6TK-C9QB-W4DN-H8YU","U5PL-M1EX-Q3KS-F7ZV","V8RW-B4JH-N6TY-D2AL","A2GF-X9CM-T5UP-L7JQ","E1HD-Z3WK-R8BV-S6NY","T4JM-P7QF-K9DX-C5GU","M6SN-H2WL-Y4EZ-N8RT","G3LC-Q5AT-F9KU-V1DJ","K7BX-U8RM-W2PN-J4HS","Z9FQ-D1EV-L6YC-B3TM","N4VW-S9GJ-X7AK-E6QP","R5UH-Y2FX-H4LM-T8CW","D8JE-C6NT-V3SQ-G9ZK","B1XR-K5YU-P4MH-L2WF","H6QA-F7PD-J8ZT-U3EN","Q2SY-M9LK-A5WR-X4VB","W7CL-N3GT-E6BJ-R9PD"];
 
 function checkLicense() {
     const activated = localStorage.getItem('activated');
     if (activated === 'true') return true;
-
     let installDate = localStorage.getItem('installDate');
     if (!installDate) {
         installDate = Date.now();
         localStorage.setItem('installDate', installDate);
     }
-
     const daysUsed = Math.floor((Date.now() - parseInt(installDate)) / (1000 * 60 * 60 * 24));
     const daysLeft = 3 - daysUsed;
-
     if (daysLeft <= 0) {
         showLicense(true);
         return false;
@@ -136,10 +114,8 @@ function showLicense(expired = false) {
     const daysUsed = Math.floor((Date.now() - parseInt(installDate)) / (1000 * 60 * 60 * 24));
     const daysLeft = 3 - daysUsed;
     const activated = localStorage.getItem('activated') === 'true';
-
     const trialInfo = document.getElementById('trialInfo');
     const trialBtn = document.getElementById('trialBtn');
-
     if (activated) {
         trialInfo.innerHTML = `<div class="days-left activated">✓ التطبيق مفعل</div>`;
         trialBtn.classList.add('hidden');
@@ -150,7 +126,6 @@ function showLicense(expired = false) {
         trialInfo.innerHTML = `<div class="days-left">متبقي ${daysLeft} يوم من التجربة المجانية</div>`;
         trialBtn.classList.remove('hidden');
     }
-
     document.getElementById('licenseScreen').classList.remove('hidden');
     document.getElementById('mainApp').classList.add('hidden');
 }
@@ -174,165 +149,98 @@ function activateApp() {
         alert('ادخل الكود');
         return;
     }
-
     const usedCodes = JSON.parse(localStorage.getItem('usedCodes') || '[]');
-
     if (VALID_CODES.includes(code)) {
         if (usedCodes.includes(code)) {
             alert('هذا الكود مستخدم من قبل');
             return;
         }
-
         localStorage.setItem('activated', 'true');
         localStorage.setItem('usedCode', code);
         usedCodes.push(code);
         localStorage.setItem('usedCodes', JSON.stringify(usedCodes));
-
         document.getElementById('licenseScreen').classList.add('hidden');
         document.getElementById('mainApp').classList.remove('hidden');
         initApp();
-
         alert('تم التفعيل بنجاح ✓');
     } else {
         alert('كود خاطئ');
     }
 }
 
-function initApp() {
-    loadData();
-    renderClients();
-}
-
+function initApp() { loadData(); renderClients(); }
 function normalizeArabic(text) {
     if (!text) return '';
     return text.toString().toLowerCase().replace(/أ|إ|آ/g, 'ا').replace(/ة/g, 'ه').replace(/ى/g, 'ي').replace(/ئ|ؤ/g, 'ي').replace(/[ًٌٍَُِّْ]/g, '').replace(/\s+/g, ' ').trim();
 }
-
-function saveData() {
-    localStorage.setItem('clientsDebt', JSON.stringify(clients));
-    updateTotal();
-}
-
-function loadData() {
-    const saved = localStorage.getItem('clientsDebt');
-    if (saved) clients = JSON.parse(saved);
-}
-
-function clearAll() {
-    if (confirm('متأكد تبي تحذف كل العملاء؟')) {
-        clients = [];
-        saveData();
-        renderClients();
-    }
-}
-
-function toggleAddForm() {
-    document.getElementById('addForm').classList.toggle('hidden');
-}
-
+function saveData() { localStorage.setItem('clientsDebt', JSON.stringify(clients)); updateTotal(); }
+function loadData() { const saved = localStorage.getItem('clientsDebt'); if (saved) clients = JSON.parse(saved); }
+function clearAll() { if (confirm('متأكد تبي تحذف كل العملاء؟')) { clients = []; saveData(); renderClients(); } }
+function toggleAddForm() { document.getElementById('addForm').classList.toggle('hidden'); }
 function addClient() {
     const name = document.getElementById('newName').value.trim();
     const phone = document.getElementById('newPhone').value.trim();
     const debt = parseFloat(document.getElementById('newDebt').value) || 0;
-
-    if (!name ||!phone) {
-        alert('اكتب الاسم والجوال');
-        return;
-    }
-
+    if (!name ||!phone) { alert('اكتب الاسم والجوال'); return; }
     clients.push({ name, phone, debt });
-    saveData();
-    renderClients();
-
+    saveData(); renderClients();
     document.getElementById('newName').value = '';
     document.getElementById('newPhone').value = '';
     document.getElementById('newDebt').value = '';
     document.getElementById('addForm').classList.add('hidden');
 }
-
 document.getElementById('fileInput').addEventListener('change', function(e) {
-    const file = e.target.files[0];
-    if (!file) return;
-
+    const file = e.target.files[0]; if (!file) return;
     const reader = new FileReader();
     reader.onload = function(e) {
         const data = new Uint8Array(e.target.result);
         const workbook = XLSX.read(data, {type: 'array'});
         const sheet = workbook.Sheets[workbook.SheetNames[0]];
         const rows = XLSX.utils.sheet_to_json(sheet, {header: 1});
-
-        if (rows.length < 2) {
-            alert('الملف فاضي');
-            return;
-        }
-
+        if (rows.length < 2) { alert('الملف فاضي'); return; }
         const headers = rows[0].map(h => normalizeArabic(h));
         const nameIdx = headers.findIndex(h => h.includes('اسم') || h.includes('عميل'));
         const phoneIdx = headers.findIndex(h => h.includes('جوال') || h.includes('رقم') || h.includes('هاتف'));
         const debtIdx = headers.findIndex(h => h.includes('دين') || h.includes('رصيد') || h.includes('مبلغ'));
-
         if (nameIdx === -1 || phoneIdx === -1 || debtIdx === -1) {
             alert('تأكد إن ملف الإكسل فيه أعمدة: الاسم، الجوال، الدين');
             return;
         }
-
         clients = [];
         for (let i = 1; i < rows.length; i++) {
             const name = rows[i][nameIdx];
             const phone = rows[i][phoneIdx];
             const debt = parseFloat(rows[i][debtIdx]) || 0;
-            if (name && phone) {
-                clients.push({ name: name.toString(), phone: phone.toString(), debt });
-            }
+            if (name && phone) clients.push({ name: name.toString(), phone: phone.toString(), debt });
         }
-
-        saveData();
-        renderClients();
-        alert(`تم استيراد ${clients.length} عميل`);
+        saveData(); renderClients(); alert(`تم استيراد ${clients.length} عميل`);
     };
     reader.readAsArrayBuffer(file);
 });
-
 function renderClients() {
     const list = document.getElementById('clientsList');
     list.innerHTML = '';
-
     clients.forEach((client, idx) => {
         const card = document.createElement('div');
         card.className = 'client-card';
-        card.innerHTML = `
-            <div class="client-name">${client.name}</div>
-            <div class="client-info">الجوال: ${client.phone}</div>
-            <div class="client-info client-debt">الدين: ${client.debt.toFixed(1)} ريال</div>
-            <div class="btn-row">
-                <button class="btn-green" onclick="sendMessage(${idx}, 'whatsapp')">واتس</button>
-                <button class="btn-blue" onclick="sendMessage(${idx}, 'sms')">SMS</button>
-                <button class="btn-red" onclick="deleteClient(${idx})">حذف</button>
-            </div>
-        `;
+        card.innerHTML = `<div class="client-name">${client.name}</div><div class="client-info">الجوال: ${client.phone}</div><div class="client-info client-debt">الدين: ${client.debt.toFixed(1)} ريال</div><div class="btn-row"><button class="btn-green" onclick="sendMessage(${idx}, 'whatsapp')">واتس</button><button class="btn-blue" onclick="sendMessage(${idx}, 'sms')">SMS</button><button class="btn-red" onclick="deleteClient(${idx})">حذف</button></div>`;
         list.appendChild(card);
     });
-
     updateTotal();
 }
-
 function updateTotal() {
     const total = clients.reduce((sum, c) => sum + c.debt, 0);
     document.getElementById('totalDebt').textContent = `إجمالي الديون: ${total.toFixed(1)} ريال`;
 }
-
 function deleteClient(idx) {
     if (confirm(`حذف ${clients[idx].name}؟`)) {
         clients.splice(idx, 1);
-        saveData();
-        renderClients();
+        saveData(); renderClients();
     }
 }
-
 function sendMessage(idx, type) {
     const c = clients[idx];
     const msg = `مرحبا ${c.name}، نذكرك أن رصيدك المستحق علينا هو ${c.debt.toFixed(1)} ريال. نرجو السداد قريباً. شكراً لك.`;
-
     if (type === 'whatsapp') {
         const phone = c.phone.replace(/[^0-9]/g, '');
         window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
@@ -340,19 +248,11 @@ function sendMessage(idx, type) {
         window.open(`sms:${c.phone}?body=${encodeURIComponent(msg)}`, '_blank');
     }
 }
-
 function sendToAll(type) {
-    if (clients.length === 0) {
-        alert('ما فيه عملاء');
-        return;
-    }
+    if (clients.length === 0) { alert('ما فيه عملاء'); return; }
     if (!confirm(`ترسل رسالة لـ ${clients.length} عميل؟`)) return;
-
-    clients.forEach((c, i) => {
-        setTimeout(() => sendMessage(i, type), i * 1500);
-    });
+    clients.forEach((c, i) => { setTimeout(() => sendMessage(i, type), i * 1500); });
 }
-
 window.onload = function() {
     if (checkLicense()) {
         document.getElementById('licenseScreen').classList.add('hidden');
