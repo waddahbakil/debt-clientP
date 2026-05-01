@@ -1,13 +1,10 @@
 {
   "name": "إدارة ديون العملاء",
   "short_name": "ديون العملاء",
-  "description": "تطبيق لإدارة ديون العملاء مع نظام تفعيل 3 أيام وإرسال رسائل واتساب و SMS",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2e7d32",
-  "orientation": "portrait",
-  "scope": "./",
   "icons": [
     {
       "src": "./icon-192.png",
